@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Trip Advisor</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap-5.0.2-dist/css/bootstrap.min.css"> <!--Chamada do bootstrap-->
+    <link rel="stylesheet" type="text/css" href="style/style.css"> <!--Chamada do CSS padrão-->
+
+    <!--FAVICON - Não deu certo com icone 16x16-->
+    <link rel="shortcut icon" href="img/icon-tripadvisor.png" type="image/x-icon">
+    <link rel="icon" href="img/icon-tripadvisor.png" type="image/x-icon">
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+            <img src="img/tripadvisor.png" width="77" height="45">
+        </a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#parceiros">Parceiros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos">Serviços</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://google.com.br"><i class="fas fa-search"></i></a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+        <section id="quemsomos">
+            <div class="container-fluid quem-somos text-center">
+                <h3 class="main1">Quem somos</h3>
+                <a class="main-image"><img class="rounded-circle" src="img/415x415_hotel.jpg" width="35%" height="35%"></a>
+                <!--Pra ser responsiva as imagens tem que trabalhar com % ou VW-->
+                <h3 class="main2">Venha desfrutar dos melhores hotéis do Brasil.</h3>
+            </div>
+        </section>
+
+    <section id="parceiros">
+        <div class="container-fluid text-center parceiros margin">
+            <h3>Parceiros</h3>
+            <div class="container">
+                <div class="row imagens">
+                    <div class="col-lg-4">
+                        <img src="img/logo-booking.png" width="30%" class="img-partner">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/hoteis.com-logo.png" width="30%" class="img-partner">
+                    </div>
+                    <div class="col-lg-4">
+                        <img src="img/decolar.com-logo.jpg" width="30%" class="img-partner">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicos">
+        <div class="container-fluid text-center servicos">
+            <h3>Serviços</h3>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6">
+                        <p class="description">Quartos premiados pelos melhores avaliadores do país. Venha aproveitar as nossas ofertas especiais para o mês de férias.</p>
+                        <img class="hotel" src="img/pre-4.serhs-natal-grand-hotel-suite-secundaria-presidencial558.jpg" width="100%">
+                    </div>
+                    <div class="col-lg-6">
+                        <p class="description">Nosso SPA dispõe do melhor atendimento da região. Venha descansar após um longo ano de trabalho e estudos.</p>
+                        <img class="hotel" src="img/pre-6serhs-natal-grand-hotel-spa-kensho323.jpg" width="100%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="container-fluid text-center bg-footer margin">
+        <ul class="container-fluid text-center margin nav1">
+            <li class="item1">
+                <a class="link" href="https://github.com/adrianoll/Aula_Bootstrap_DIO.git"><i class="fab fa-github"></i></a>
+                <a class="link" href="https://github.com/adrianoll/Aula_Bootstrap_DIO.git">Encontre-me no Github</a>
+            </li>
+            <li class="item2">
+                <a class="link" href="https://www.linkedin.com/in/adriano-llima/"><i class="fab fa-linkedin"></i></a>
+                <a class="link" href="https://www.linkedin.com/in/adriano-llima/">Perfil no LinkedIn</a>
+            </li>
+        </ul>
+        <ul class="nav2">
+            <li  class="by1">
+                <p><i class="fas fa-audio-description"></i> Adriano Lima</p>
+            </li>
+            <li class="by2">
+                <p><i class="far fa-copyright"></i> 2021</p>
+            </li>
+        </ul>
+    </footer>
+
+    <!--Fonte Awesome-->
+    <script src="https://kit.fontawesome.com/f406372027.js" crossorigin="anonymous"></script>
+</body>
+</html>

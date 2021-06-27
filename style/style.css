@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    background-color:#36A1D6;
+    padding: 20px;
+}
+
+.quem-somos{
+    /*Configuração da Imagem de Fundo*/
+    background: url(/img/praia.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    width: 100%;
+    /*Outras configurações*/
+    padding: 50px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:stretch;
+
+}
+
+.main-image:hover{
+    cursor:pointer;
+    transform:scale(1.1);
+    transition: .3s ease all; 
+}
+
+.parceiros{
+    padding-top: 20px;
+    padding-bottom: 50px;
+    background-color: #36A1D6;
+}
+
+.parceiros .imagens{
+    padding: 50px;
+}
+
+.img-partner{
+    padding-top: 20px;
+}
+
+.img-partner:hover{
+    transform:scale(1.5);
+    transition: .5s ease all; 
+}
+
+.servicos{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: whitesmoke;
+}
+
+.hotel:hover{
+    transform:scale(1.1);
+    transition: .6s ease all; 
+}
+
+.description{
+    padding-top: 50px;
+    padding-bottom: 5px;
+}
+
+.bg-footer{
+    background-color:black;
+    color: white;
+    text-decoration: none;
+    text-transform: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.nav1{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.item2{
+    padding-left: 6vw;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.link:hover{
+    color: white;
+}
+
+.nav2{
+    list-style: none;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    padding-top: 5px;
+}
+
+.by2{
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 990px){
+
+}
